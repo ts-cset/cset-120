@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Midterm Project: Portfolio</title>
+
+  <link rel="stylesheet" href="assets/slides.css" />
+</head>
+<body>
+  <h1>Midterm Project: Portfolio</h1>
+
+  <p>You've learned a lot this semester: from basic command line tools to complex git workflows, from HTML semantics to organizing large pages and projects, from simple text formatting with CSS to all the ways to make the same layout with different properties.</p>
+
+  <p>Now you'll put it all together and build your own portfolio website!</p>
+
+  <hr>
+
+  <h2>Planning</h2>
+
+  <p>Remember <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure#Planning_a_simple_website">this exercise</a>? Over the weekend, I want you to plan your portfolio. If you don't know what a portfolio is, here are some of my favorite examples of designers and developers:</p>
+
+  <ul>
+    <li><a href="http://danmall.me/" target="_blank">Dan Mall</a></li>
+    <li><a href="https://chriscoyier.net/" target="_blank">Chris Coyier</a></li>
+    <li><a href="https://sarahdrasnerdesign.com/" target="_blank">Sarah Drasner</a></li>
+    <li><a href="http://bradfrost.com/" target="_blank">Brad Frost</a></li>
+    <li><a href="https://www.bripiccari.me/" target="_blank">Bri Piccari</a></li>
+    <li><a href="https://www.laurenhallden.com/" target="_blank">Lauren Hallden</a></li>
+  </ul>
+
+  <p>Of course, these are from professionals. I won't compare your portfolio to theirs, and neither should you! Portfolios are a medium to show what <strong>you</strong> are capable of. They are a place for you to experiment with new techniques and prove that you can use the tools and languages that are listed on your resume. Use these websites as inspiration for what you hope to learn and be able to build soon.</p>
+
+  <p>To plan your site, follow the same exercise in that MDN article above and complete each of those steps for your portfolio. You'll hand this in on <strong>Tuesday, Oct. 9th</strong>, although you can turn it in earlier if you want to get started sooner. You're welcome to use whatever tool you want for this, like mind-mapping software or pen and paper. You're handing this in so that I can help you make any course corrections needed before you get too far into the process of building it. Think of this as a rough draft. Here are some things you should think about:</p>
+
+  <ul>
+    <li>What content do you want on your portfolio? (e.g. About page? Resume? Contact Info? Projects?)</li>
+    <li>How many different types of pages will you need for that content? (e.g. Will your project pages have a different layout than your homepage?)</li>
+    <li>How will you create the content? (e.g. Is it all text or do you have some images? How will you show your projects?)</li>
+    <li>Do you own all of your content? (e.g. Don't steal content. <a href="https://choosealicense.com/licenses/" target="_blank">Here</a> is a nice description of some common software licenses that you might find on Github.)</li>
+  </ul>
+
+  <hr>
+
+  <h2>Setup</h2>
+
+  <p>Follow <a href="https://pages.github.com/" target="_blank">this article</a> to set up your repository. <strong>It's incredibly important that you follow their directions or else your project will not be deployed properly!</strong> We will discuss Github Pages in class, but this is a service that serves your git repo at a specific URL so your HTML files will become a real website!</p>
+
+  <p>I also want you to try using the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow" target="_blank">Feature Branch workflow</a>. We've used the Centralized workflow a lot, now it's time to use the power of branches. You can even ask some of your peers to review your open Pull Requests on Github if you want.</p>
+
+  <hr>
+
+  <h2>Rubric</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Standard</th>
+        <th>Does Not Meet Standard</th>
+        <th>Meets Standard</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Project Planning</th>
+        <td>Lack of effort in creating personalized content. Minimal attempt at designing layouts. Plan asks more questions than it answers.</td>
+        <td>Planned content is high quality and personalized. Designs show an attempt at distinct layouts for distinct content, but also show a cohesive and consistent site.</td>
+      </tr>
+      <tr>
+        <th>HTML Syntax</th>
+        <td>The code contains a multitude of errors: misspellings, unclosed tags, malformed attributes, or overlapping tags.</td>
+        <td>The code passes validation and shows a thorough understanding of the rules of syntax.</td>
+      </tr>
+      <tr>
+        <th>HTML Semantics</th>
+        <td>Content is commonly described by improper tags when a better tag would suffice.</td>
+        <td>Content is well described by tags and the student has shown effort in finding and understanding the appropriate tag.</td>
+      </tr>
+      <tr>
+        <th>CSS Syntax</th>
+        <td>The code contains a multitude of errors: misspellings, improper punctuation, non-existent properties or property values, or incorrect values for a given property.</td>
+        <td>The code passes validation and shows a thorough understanding of the rules of syntax.</td>
+      </tr>
+      <tr>
+        <th>CSS Positioning</th>
+        <td>Positioning is either over- or under-engineered, meaning there is either an abundance of competing rules to place elements or little to no attempt to place elements.</td>
+        <td>Multiple positioning styles have been attempted and there is just enough rules to make it happen without extraneous, useless declarations.</td>
+      </tr>
+      <tr>
+        <th>Code Style</th>
+        <td>Code is illegible, poorly indented, or messy.</td>
+        <td>Care has been taken to ensure human readability.</td>
+      </tr>
+      <tr>
+        <th>Deployment</th>
+        <td>The site hasn't been deployed to a URL or there are an abundance of broken URLs for links and/or images.</td>
+        <td>The site has been deployed to a URL and there are no broken links.</td>
+      </tr>
+      <tr>
+        <th>Project Structure</th>
+        <td>Files for code and other assets are disorganized, poorly named, or are not separated into distinct parts.</td>
+        <td>All files are in a proper home, separated and organized by context, and have meaningful names.</td>
+      </tr>
+      <tr>
+        <th>Content</th>
+        <td>There is minimal content, either copy or images, or the content is a poor quality or is not personalized to the individual.</td>
+        <td>There is sufficient high-quality content to show your distinct personality and skill set.</td>
+      </tr>
+      <tr>
+        <th>Git Workflow</th>
+        <td>There is only one branch. No Pull Requests were opened to merge features into the master branch. Commits are poorly named or contain sloppy snapshots of development.</td>
+        <td>Commits are atomic and messages describe the exact work done. Branches have been created for individual features and they have been merged into the master branch according to the Pull Request process.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h2>Launch</h2>
+
+  <p>The portfolios will be due <strong>by midnight on Sunday, Oct. 14th</strong>. Make sure you've commited all your changes, pushed them to Github, and merged them into the master branch so that they'll be live on your production site!</p>
+
+  <p>We will show off our creations in class the following few days. Each of you will get to walk us through your site on the projector and share your thoughts on the project. Here are some questions I'll ask you:</p>
+
+  <ul>
+    <li>Did you learn and use any new CSS property or HTML tag that we haven't talked about yet?</li>
+    <li>Was there anything especially puzzling that took you a while to figure out?</li>
+    <li>What do you want to learn about so you can add it to your portfolio later?</li>
+    <li>What is something you are particularly proud of?</li>
+  </ul>
+</body>
+</html>
