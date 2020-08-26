@@ -3,6 +3,12 @@
 View these notes at [ts-cset.github.io/cset-120/](https://ts-cset.github.io/cset-120/).
 
 
+## Archive
+
+Looking for a previous year?
+
+- [2019 Fall](https://ts-cset.github.io/cset-120/2019-fall/)
+
 
 ## Questions?
 
